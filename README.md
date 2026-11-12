@@ -1,17 +1,17 @@
-# campusflow
+# campusflow_init
 
-A new Flutter project.
+CampusFlow Flutter project (workshop of session 4): project setup, centralized theme, a package and an image asset.
 
-## Getting Started
+## Steps
 
-This project is a starting point for a Flutter application.
+1. Flutter project created with `flutter create`.
+2. Theme centralized in `lib/theme/app_theme.dart` (colors and text styles from the design system of session 2), and a title screen.
+3. Package `intl` added with `flutter pub add`, and the logo declared as an asset in `pubspec.yaml`.
 
-A few resources to get you started if this is your first Flutter project:
+## Run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub get
+flutter run -d edge
+flutter test
+```
